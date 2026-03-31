@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.Product_rinda{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+}
+.product{
+    
+    
+}
