@@ -1,14 +1,44 @@
 body{
+    margin: 0;
+    padding: 0;
     background-color: rgb(255, 255, 255);
 }
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 5px;
+}
+nav a{
+    margin: 8px;
+}
+.Rekomend_jaun_kolekc{
+    background-color:rgb(143, 143, 143);
 
+    padding: 100px;
+    text-align: center;
+}
 .Product_rinda{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    
+}
+.Product_rinda img{
+    display: block;
+    height: 180px;
+    width: 290px;
+    border-radius:10px ;
+}
+.Discrounted_Products, .New_Arravals{
+    margin: 10px;
 }
 .product{
-    
-    
+    padding: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    font-size: 14px;
 }
