@@ -2,19 +2,31 @@ body{
     margin: 0;
     padding: 0;
     background-color: rgb(255, 255, 255);
+    font-size: 18px;
 }
 header{
     display: flex;
     justify-content: space-between;
     padding: 10px;
     margin: 5px;
+    font-size: 20px;
 }
 nav a{
     margin: 8px;
 }
+form{
+    display:flex;
+    justify-content: center;
+}
+input{
+    margin: 10px;
+    width:1000px;
+}
+input:last-child{
+    width: 80px;
+}
 .Rekomend_jaun_kolekc{
-    background-color:rgb(143, 143, 143);
-
+    background-color:rgb(204, 204, 204);
     padding: 100px;
     text-align: center;
 }
@@ -23,13 +35,26 @@ nav a{
     flex-direction: row;
     justify-content: space-evenly;
 }
-.Product_rinda img{
+.product img{
     display: block;
     height: 180px;
     width: 290px;
     border-radius:10px ;
+    transition: 0,4ms;
 }
-.Discrounted_Products, .New_Arravals{
+.product img:hover{
+    transform: scale(1.1);
+    filter: brightness(1);
+}
+p.OldCena{
+    text-decoration: line-through;
+}
+figcaption{
+    padding: 25px;
+    text-align: center;
+    font-size: 17px;
+}
+section.Discrounted_Products, section.New_Arravals{
     margin: 10px;
 }
 .product{
@@ -40,5 +65,5 @@ footer {
     display: flex;
     justify-content: space-between;
     padding: 25px;
-    font-size: 14px;
+    font-size: 16px;
 }
